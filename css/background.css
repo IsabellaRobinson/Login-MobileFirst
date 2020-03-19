@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    }
+
+
+.cirkel{
+        margin-left: 44vh;
+        margin-top: 40vh;
+    }
+
+
+ .rectangle1{
+    position: fixed;
+    margin-top: -50%;
+    margin-left: 50%;
+}
+
+.rectangle2{
+    position: fixed;
+    margin-top: 5%;
+    margin-left: 50%;
+} 
