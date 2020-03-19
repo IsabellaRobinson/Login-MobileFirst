@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/background.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+    <!-- Her er headeren -->
+    <header>
+        <h1>Login</h1>
+        <h2><a href="./signup.html">Signup</a></h2>
+    </header>
+
+
+<!-- Alt hvad der sker i baggrunden  -->
+    <div class="backgroundshapes">
+        <img src="./img/shapes/Rectangle 6.png" alt="#" class="rectangle1">
+        <img src="./img/shapes/Rectangle 6.png" alt="#" class="rectangle2">
+        <img src="./img/shapes/circle pattern.png" alt="#" class="cirkel">
+    </div>
+
+
+    <!-- Det der ligger her i Main er selve det med at logge ind, og skrive password. Den virker ikke. -->
+    <section class="main">
+        <form mothod="post" name="login" id="login" onsubmit="return valider (this);"></form>
+    <table>
+        <tr><tb>
+        <label for="mail">Email<br>
+        <input type="text" name="mail" id="email"></label>
+        </tb>
+    </tr> 
+    <br> <br> <br>
+        <tr><tb>
+            <label for="password"><p>Password</p><br>
+            <input type="password" name="password" id="password"></label> <img src="./img/visibility.png" alt="#">
+        </tb>
+    </tr><br>
+    <tr><tb>
+<!-- Knap med pil i -->
+        <button><a href=“#”>
+            <img src="./img/arrow-pointing-to-right.png" alt="#">
+            </button>
+        </tb>
+</tr>
+    </section>
+
+<!-- Hvis du har glemt dit login. -->
+    <section class="forgot">
+        <a href="#"> Forgot emil/password?</a>
+    </section>
+
+<section class="login">
+    <p>or login with</p>
+</section>
+
+<!-- Billeder til footer -->
+    <footer>
+        <img src="./img/twitter.png" alt="#" a href="#">
+        <img src="./img/facebook.png" alt="#"a href="#">
+        <img src="./img/google.png" alt="#" a href="#">
+    </footer>
+
+    <!-- Hvis jeg havde lavet JS ;-) -->
+    <script src="./js/Index.js" ></script>
+</body>
+</html>
